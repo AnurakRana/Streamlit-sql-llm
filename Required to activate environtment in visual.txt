@@ -1,0 +1,6 @@
+Open a terminal in VS Code (Ctrl + ~).
+Navigate to your project directory:
+cd path\to\your\project
+Create a virtual environment:
+python -m venv venv
+venv\Scripts\activate
