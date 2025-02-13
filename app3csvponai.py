@@ -9,7 +9,7 @@ from google.oauth2 import service_account
 
 
 # Configure Gemini API
-generativeai.configure(api_key="AIzaSyARzMISJXR6KMQeQ-SEV4Ns0c73MPN_ak4")
+generativeai.configure(api_key="")
 
 # Load Dialogflow credentials
 dialogflow_credentials = service_account.Credentials.from_service_account_file("dialogflow_key.json")
