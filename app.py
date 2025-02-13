@@ -4,12 +4,12 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as generativeai
 
-generativeai.configure(api_key="AIzaSyARzMISJXR6KMQeQ-SEV4Ns0c73MPN_ak4")
+generativeai.configure(api_key="")
 
-DB_HOST = "127.0.0.1"
-DB_USER = "root"
-DB_PASSWORD = "Arana@1993"
-DB_NAME = "northwind"
+DB_HOST = ""
+DB_USER = ""
+DB_PASSWORD = ""
+DB_NAME = ""
 
 # ALLOWED_SQL_PATTERNS = [
 #     r"^\s*SELECT\s+\*?\s+FROM\s+\w+",   # SELECT * FROM table
